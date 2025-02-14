@@ -1,0 +1,67 @@
+/* General Page Styling */
+body {
+    background: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Toolbar */
+#toolbar {
+    background: #f5f5f5;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000;
+}
+
+/* Pages Container */
+#pages-container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Individual Page */
+.page {
+    background: white;
+    width: 816px;
+    height: 1056px;
+    padding: 40px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Ensure Page Breaks Work */
+.page-break {
+    page-break-after: always;
+}
+
+
+.back-btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.back-btn:hover {
+    background: #e63939;
+}

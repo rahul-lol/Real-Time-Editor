@@ -1,0 +1,42 @@
+/* General Page Styling */
+body {
+    background-color: #2C2C2C; /* Dark Grey Background */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navigation Bar */
+nav {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+/* Menu (Hamburger) Button */
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Create Document Button */
+.create-btn {
+    font-size: 24px;
+    padding: 20px 40px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.create-btn:hover {
+    background-color: #45a049;
+}
